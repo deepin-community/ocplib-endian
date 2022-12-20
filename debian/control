@@ -1,0 +1,62 @@
+Source: ocplib-endian
+Priority: optional
+Maintainer: Debian OCaml Maintainers <debian-ocaml-maint@lists.debian.org>
+Uploaders:
+ Stéphane Glondu <glondu@debian.org>
+Build-Depends:
+ debhelper-compat (= 13),
+ ocaml-nox,
+ ocaml-dune,
+ cppo,
+ dh-ocaml
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
+Section: ocaml
+Homepage: https://github.com/OCamlPro/ocplib-endian
+Vcs-Git: https://salsa.debian.org/ocaml-team/ocplib-endian.git
+Vcs-Browser: https://salsa.debian.org/ocaml-team/ocplib-endian
+
+Package: libocplib-endian-ocaml-dev
+Architecture: any
+Depends:
+ ${ocaml:Depends},
+ ${shlibs:Depends},
+ ${misc:Depends}
+Provides: ${ocaml:Provides}
+Recommends: ocaml-findlib
+Description: optimised functions to read and write int16/32/64 (development)
+ Optimised functions to read and write int16/32/64 from strings, bytes
+ and bigarrays, based on primitives added in version 4.01.
+ .
+ The library implements three modules:
+  * EndianString works directly on strings, and provides submodules
+    BigEndian and LittleEndian, with their unsafe counter-parts;
+  * EndianBytes works directly on bytes, and provides submodules
+    BigEndian and LittleEndian, with their unsafe counter-parts;
+  * EndianBigstring works on bigstrings (Bigarrays of chars), and
+    provides submodules BigEndian and LittleEndian, with their unsafe
+    counter-parts.
+ .
+ This package contains the development files.
+
+Package: libocplib-endian-ocaml
+Architecture: any
+Depends:
+ ${ocaml:Depends},
+ ${shlibs:Depends},
+ ${misc:Depends}
+Provides: ${ocaml:Provides}
+Description: optimised functions to read and write int16/32/64 (runtime)
+ Optimised functions to read and write int16/32/64 from strings, bytes
+ and bigarrays, based on primitives added in version 4.01.
+ .
+ The library implements three modules:
+  * EndianString works directly on strings, and provides submodules
+    BigEndian and LittleEndian, with their unsafe counter-parts;
+  * EndianBytes works directly on bytes, and provides submodules
+    BigEndian and LittleEndian, with their unsafe counter-parts;
+  * EndianBigstring works on bigstrings (Bigarrays of chars), and
+    provides submodules BigEndian and LittleEndian, with their unsafe
+    counter-parts.
+ .
+ This package contains the runtime files.

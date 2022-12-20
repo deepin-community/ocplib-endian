@@ -1,0 +1,14 @@
+@OCamlStdlibDir@/ocplib-endian/*opam*
+@OCamlStdlibDir@/ocplib-endian/*dune*
+@OCamlStdlibDir@/ocplib-endian/*.ml*
+@OCamlStdlibDir@/ocplib-endian/*.cmi
+@OCamlStdlibDir@/ocplib-endian/*.cmt*
+OPT: @OCamlStdlibDir@/ocplib-endian/*.cmx
+OPT: @OCamlStdlibDir@/ocplib-endian/*.cmxa
+OPT: @OCamlStdlibDir@/ocplib-endian/*.a
+@OCamlStdlibDir@/ocplib-endian/*/*.ml*
+@OCamlStdlibDir@/ocplib-endian/*/*.cmi
+@OCamlStdlibDir@/ocplib-endian/*/*.cmt*
+OPT: @OCamlStdlibDir@/ocplib-endian/*/*.cmx
+OPT: @OCamlStdlibDir@/ocplib-endian/*/*.cmxa
+OPT: @OCamlStdlibDir@/ocplib-endian/*/*.a

@@ -1,0 +1,5 @@
+@OCamlStdlibDir@/ocplib-endian/META
+@OCamlStdlibDir@/ocplib-endian/*.cma
+DYN: @OCamlStdlibDir@/ocplib-endian/*.cmxs
+@OCamlStdlibDir@/ocplib-endian/*/*.cma
+DYN: @OCamlStdlibDir@/ocplib-endian/*/*.cmxs
