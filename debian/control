@@ -5,11 +5,11 @@ Uploaders:
  Stéphane Glondu <glondu@debian.org>
 Build-Depends:
  debhelper-compat (= 13),
- ocaml-nox,
+ ocaml,
  ocaml-dune,
  cppo,
- dh-ocaml
-Standards-Version: 4.5.0
+ dh-ocaml (>= 1.2)
+Standards-Version: 4.6.0
 Rules-Requires-Root: no
 Section: ocaml
 Homepage: https://github.com/OCamlPro/ocplib-endian

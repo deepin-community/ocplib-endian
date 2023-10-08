@@ -1,2 +1,2 @@
-version=3
-https://github.com/OCamlPro/ocplib-endian/releases .*/archive/(.*)\.tar\.gz
+version=4
+https://github.com/OCamlPro/ocplib-endian/tags .*/([0-9.]+)\.tar\.gz

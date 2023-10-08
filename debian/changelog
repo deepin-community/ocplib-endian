@@ -1,8 +1,27 @@
-ocplib-endian (1.1-deepin1) unstable; urgency=medium
+ocplib-endian (1.2-3) unstable; urgency=medium
 
-  * Rebuild
+  * Depend on ocaml instead of transitional ocaml-nox
 
- -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:48:10 +0800
+ -- Stéphane Glondu <glondu@debian.org>  Wed, 13 Sep 2023 06:19:21 +0200
+
+ocplib-endian (1.2-2) unstable; urgency=medium
+
+  * Use ocaml_dune DH buildsystem
+
+ -- Stéphane Glondu <glondu@debian.org>  Sat, 15 Jul 2023 13:52:12 +0200
+
+ocplib-endian (1.2-1) unstable; urgency=low
+
+  [ Stéphane Glondu ]
+  * New upstream release
+  * Bump Standards-Version to 4.6.0
+  * Update debian/watch
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Stéphane Glondu <glondu@debian.org>  Sat, 04 Dec 2021 17:43:19 +0100
 
 ocplib-endian (1.1-2) unstable; urgency=medium
 
