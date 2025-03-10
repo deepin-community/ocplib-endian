@@ -1,5 +1,11 @@
 ocplib-endian (1.2-3) unstable; urgency=medium
 
+  * rebuild
+
+ -- lhdjply <lhdjply@126.com>  Mon, 10 Mar 2025 09:55:17 +0800
+
+ocplib-endian (1.2-3) unstable; urgency=medium
+
   * Depend on ocaml instead of transitional ocaml-nox
 
  -- Stéphane Glondu <glondu@debian.org>  Wed, 13 Sep 2023 06:19:21 +0200
